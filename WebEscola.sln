@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEscola", "WebEscola\WebEscola.csproj", "{DAF36371-E052-4607-8B55-5485ED34830B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEscola.Tests", "WebEscola.Tests\WebEscola.Tests.csproj", "{B38C604B-569F-48B9-A175-A977907ABA17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAF36371-E052-4607-8B55-5485ED34830B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF36371-E052-4607-8B55-5485ED34830B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF36371-E052-4607-8B55-5485ED34830B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF36371-E052-4607-8B55-5485ED34830B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38C604B-569F-48B9-A175-A977907ABA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38C604B-569F-48B9-A175-A977907ABA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38C604B-569F-48B9-A175-A977907ABA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38C604B-569F-48B9-A175-A977907ABA17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
