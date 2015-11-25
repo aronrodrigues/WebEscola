@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using WebEscola.Validators;
 
 namespace WebEscola.Models
 {
@@ -14,6 +15,7 @@ namespace WebEscola.Models
         [Range(1000, 9999, ErrorMessage="O campo {0} deve estar entre {1} e {2}")]
         [RegularExpression(@"^[0-9]*$", ErrorMessage = "Digite número válido para o {0}.")]
         [DisplayName("Matrícula")]
+        [Soma13]
         public Int16 ID { get; set; }
 
         [Required(ErrorMessage = "É necessário informar um {0}")]
