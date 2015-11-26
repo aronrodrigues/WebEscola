@@ -13,10 +13,10 @@ namespace WebEscola.Validators
         {
             if (valor != null)
             {
-                if (valor is short)
+                if (valor is int)
                 {
 
-                    short buffer = (short)valor;
+                    int buffer = (int)valor;
                     int soma = 0;
                     while (buffer != 0)
                     {
