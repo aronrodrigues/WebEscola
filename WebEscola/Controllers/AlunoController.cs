@@ -8,6 +8,7 @@ using WebEscola.Models;
 
 namespace WebEscola.Controllers
 {
+    [LogFilter]
     public class AlunoController : Controller
     {
         private static Dictionary<Int32, Aluno> dados = new Dictionary<Int32, Aluno>() {
@@ -15,8 +16,7 @@ namespace WebEscola.Controllers
             { 2222, new Aluno() { ID = 2222, Nome = "Angelina Jolie" } }
         };
 
-        [HttpGet]
-        [LogFilter]
+        [HttpGet]        
         public ActionResult Index()
         {
             ViewBag.quantidade = dados.Count;
