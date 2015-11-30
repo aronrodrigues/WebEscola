@@ -8,7 +8,6 @@ using WebEscola.Models;
 
 namespace WebEscola.Controllers
 {
-    [LogFilter]
     public class AlunoController : Controller
     {
         private static Dictionary<Int32, Aluno> dados = new Dictionary<Int32, Aluno>() {
