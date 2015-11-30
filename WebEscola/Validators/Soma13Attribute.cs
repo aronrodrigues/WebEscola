@@ -28,12 +28,16 @@ namespace WebEscola.Validators
                     {
                         return new ValidationResult("A numerologia deste número não é boa.");
                     }
+                    else
+                    {
+                        return ValidationResult.Success;
+                    }
 
                 }
 
             }
 
-            return ValidationResult.Success;
+            return new ValidationResult("Só funciona com números.");
         }
     }
 }
