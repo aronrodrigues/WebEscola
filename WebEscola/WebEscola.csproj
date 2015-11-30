@@ -109,6 +109,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\MeuHelper.cs" />
+    <Compile Include="Helpers\TModel.cs" />
+    <Compile Include="Helpers\TValue.cs" />
     <Compile Include="Models\Aluno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validators\Soma13Attribute.cs" />

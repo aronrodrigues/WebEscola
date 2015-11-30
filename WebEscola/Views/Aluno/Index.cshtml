@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<WebEscola.Models.Aluno>
+@using WebEscola.Helpers;
 
 @{
     ViewBag.Title = "Listagem de alunos";
@@ -31,7 +32,7 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Nome)
+                @Html.TextoTrucadoFor(modelItem => item.Nome, 20)
             </td>
             <td>
                 @Html.ActionLink("Editar", "Editar", new { id = item.ID }) |
