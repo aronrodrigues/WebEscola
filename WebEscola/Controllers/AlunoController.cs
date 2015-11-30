@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebEscola.Filters;
 using WebEscola.Models;
 
 namespace WebEscola.Controllers
@@ -15,6 +16,7 @@ namespace WebEscola.Controllers
         };
 
         [HttpGet]
+        [LogFilter]
         public ActionResult Index()
         {
             ViewBag.quantidade = dados.Count;
