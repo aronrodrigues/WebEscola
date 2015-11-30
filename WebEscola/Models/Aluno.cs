@@ -15,6 +15,7 @@ namespace WebEscola.Models
         [Range(1000, 9999, ErrorMessage="O campo {0} deve estar entre {1} e {2}")]
         [RegularExpression(@"^[0-9]*$", ErrorMessage = "Digite número válido para o {0}.")]
         [DisplayName("Matrícula")]
+        [Soma13]
         public Int32 ID { get; set; }
 
         [Required(ErrorMessage = "É necessário informar um {0}")]
